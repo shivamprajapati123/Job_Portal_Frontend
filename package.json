@@ -13,6 +13,7 @@
     "@clerk/clerk-react": "^5.31.9",
     "@tailwindcss/vite": "^4.1.8",
     "axios": "^1.10.0",
+    "build": "^0.1.4",
     "framer-motion": "^12.17.3",
     "k-converter": "^1.0.3",
     "moment": "^2.30.1",
