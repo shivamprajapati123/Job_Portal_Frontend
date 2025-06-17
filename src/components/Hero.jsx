@@ -361,12 +361,12 @@ const Hero = () => {
             ].map((logo, index) => (
               <div
                 key={index}
-                className="transition-all duration-500 hover:scale-125 hover:rotate-3"
+                className="transition-all duration-500 hover:scale-125 lg:grayscale hover:grayscale-0 hover:rotate-3"
               >
                 <img
                   src={logo}
                   alt="Company logo"
-                  className="h-6 grayscale hover:grayscale-0 transition duration-300"
+                  className="h-6 hover:grayscale-0 transition duration-300"
                 />
               </div>
             ))}
