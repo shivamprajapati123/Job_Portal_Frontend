@@ -14,7 +14,7 @@ A full-stack Job Portal application built with the MERN stack (MongoDB, Express.
 ## Tech Stack
 
 - **Frontend:** React.js (see [`Frontend`](https://github.com/shivamprajapati123/Job_Portal_Frontend))
-- **Backend:** Node.js, Express.js (see [`Backend`](`https://github.com/shivamprajapati123/Job_Portal_Backend/))
+- **Backend:** Node.js, Express.js (see [`Backend`](https://github.com/shivamprajapati123/Job_Portal_Backend))
 - **Database:** MongoDB
 
 ## Getting Started
