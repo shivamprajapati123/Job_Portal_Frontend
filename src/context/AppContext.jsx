@@ -31,7 +31,7 @@ export const AppContextProvider = (props) => {
       });
       if (data.success) {
         setUserData(data.user);
-        // console.log(data.user);
+        console.log(data.user);
       } else {
         toast.error(
           data.message || "Failed to fetch user data. Please try again."

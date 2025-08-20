@@ -27,8 +27,7 @@ const JobCard = ({ job }) => {
         max-w-xs
         mx-auto
       "
-      onClick={()=>{navigate(`/apply-job/${job?._id||job?.id}`)}}
-    >
+      onClick={() => { navigate(`/apply-job/${job?._id || job?.id}`); setTimeout(() => { window.scrollTo({ top: 0, behavior: "smooth" }); }, 100); }}>
       <img
         className="h-12 w-12 rounded-full border border-blue-100 shadow-sm mb-2 group-hover:scale-110 transition-transform duration-300"
         src={job.companyId?.image}
